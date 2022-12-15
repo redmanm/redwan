@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(147, 179, 168);
+    border:rgb(0, 255, 42); 
+}
+hr{
+    background-color: azure;
+    width:30%;
+    border-top-color: aqua;
+    border-top-style: dotted;
+}
+h1:hover{color:#aef702;}
+h2{color:#4b02f7;}
+h3:hover{color:#4b02f7;}
+img:hover{border-radius: 100%;
+color: #aef702;}
+input{
+    color: rgb(12, 12, 12);
+    background-color: #04ecfd;
+}
+input:hover{
+    color: rgb(13, 13, 14);
+    background-color: rgb(237, 9, 245);
+}
+textarea{color: rgb(12, 12, 12);
+background: rgb(5, 226, 255);}
+textarea:hover{color: rgb(12, 12, 12);
+    background: rgb(237, 9, 245);}
