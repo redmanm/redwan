@@ -5,277 +5,262 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Redwan Website</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <style>
-   /*@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');*/
-
-    body {
-      margin: 0;
-      box-sizing: border-box;
-    }
-
-    /* CSS for header */
-    .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #f5f5f5;
-    }
-
-    .header .logo {
-      font-size: 25px;
-      font-family: 'Sriracha', cursive;
-      color: #000;
-      text-decoration: none;
-      margin-left: 30px;
-    }
-
-    .nav-items {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      background-color: #f5f5f5;
-      margin-right: 20px;
-    }
-
-    .nav-items a {
-      text-decoration: none;
-      color: #000;
-      padding: 35px 20px;
-    }
-
-    /* CSS for main element */
-    .intro {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: 520px;
-      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("red5.png");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
-
-    .intro h1 {
-      font-family: sans-serif;
-      font-size: 60px;
-      color: #fff;
-      font-weight: bold;
-      text-transform: uppercase;
-      margin: 0;
-    }
-
-    .intro p {
-      font-size: 20px;
-      color: #d1d1d1;
-      text-transform: uppercase;
-      margin: 20px 0;
-    }
-
-    .intro button {
-      background-color: #5edaf0;
-      color: #000;
-      padding: 10px 25px;
-      border: none;
-      border-radius: 5px;
-      font-size: 20px;
-      font-weight: bold;
-      cursor: pointer;
-      box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
-    }
-
-    .achievements {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      padding: 40px 80px;
-    }
-
-    .achievements .work {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 0 40px;
-    }
-
-    .achievements .work i {
-      width: fit-content;
-      font-size: 50px;
-      color: #333333;
-      border-radius: 50%;
-      border: 2px solid #333333;
-      padding: 12px;
-    }
-
-    .achievements .work .work-heading {
-      font-size: 20px;
-      color: #333333;
-      text-transform: uppercase;
-      margin: 10px 0;
-    }
-
-    .achievements .work .work-text {
-      font-size: 15px;
-      color: #585858;
-      margin: 10px 0;
-    }
-
-    .about-me {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 40px 80px;
-      border-top: 2px solid #eeeeee;
-    }
-
-    .about-me img {
-      width: 500px;
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
-    }
-
-    .about-me-text h2 {
-      font-size: 30px;
-      color: #333333;
-      text-transform: uppercase;
-      margin: 0;
-    }
-
-    .about-me-text p {
-      font-size: 15px;
-      color: #585858;
-      margin: 10px 0;
-    }
-
-    /* CSS for footer */
-    .footer {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #302f49;
-      padding: 40px 80px;
-    }
-
-    .footer .copy {
-      color: #fff;
-    }
-
-    .bottom-links {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      padding: 40px 0;
-    }
-
-    .bottom-links .links {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 0 40px;
-    }
-
-    .bottom-links .links span {
-      font-size: 20px;
-      color: #fff;
-      text-transform: uppercase;
-      margin: 10px 0;
-    }
-
-    .bottom-links .links a {
-      text-decoration: none;
-      color: #a1a1a1;
-      padding: 10px 20px;
-    }
-  </style>
+  <title>Redwan | Personal Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+  <!-- Header -->
   <header class="header">
-    <a href="#" class="logo">Study</a>
+    <a href="#" class="logo"><i class="fas fa-code"></i>Redwan</a>
     <nav class="nav-items">
-        <a href="index.html">Home</a>
-        <a href="home.html">About</a>
-        <a href="contact.html">Contact</a>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
     </nav>
+    <div class="hamburger">
+      <i class="fas fa-bars"></i>
+    </div>
   </header>
-  <main>
-    <div class="intro"><br><br><br><br><br><br><br><br><br><br>
-      <h1>Welcome to My Personal Website!</h1>
-     
 
+  <!-- Hero Section -->
+  <section class="intro" id="home">
+    <div class="intro-content">
+      <h1>Hello, I'm <span style="color: var(--secondary)">Redwan</span></h1>
+      <p>Software Engineering Student | Accounting Student | Tech Enthusiast</p>
+      <div class="btn-container">
+        <a href="https://t.me/redman03" class="btn">Contact Me</a>
+        <a href="#about" class="btn btn-outline">Learn More</a>
+      </div>
+    </div>
+  </section>
 
-       <a href="https://t.me/redman03"> <button >More About me on TELEGRAM⭐️</button></a><br><br><br><br><br><br>
-    </div><br><br><br><br>
-    <div class="achievements"><br><br>
-      <div class="work"><br><br>
-        <i class="fas fa-atom"></i>
-        <p class="work-heading">My Hobbies</p>
+  <!-- Achievements Section -->
+  <section class="achievements">
+    <div class="section-title">
+      <h2>About My Life</h2>
+      <p>Here are some interesting facts about my hobbies, interests, and background</p>
+    </div>
+    <div class="work-container">
+      <div class="work">
+        <i class="fas fa-gamepad"></i>
+        <h3 class="work-heading">My Hobbies</h3>
         <p class="work-text">
-          I enjoy playing video games, reading books, and playing sports. I also enjoy spending time with my family and friends.
-          
+          I enjoy playing video games, reading books, and playing sports. I also love spending quality time with my family and friends, exploring new places, and learning about different cultures.
         </p>
       </div>
       <div class="work">
-        <i class="fas fa-skiing"></i>
-        <p class="work-heading">My Interests</p>
+        <i class="fas fa-laptop-code"></i>
+        <h3 class="work-heading">My Interests</h3>
         <p class="work-text">
-          I am interested in web development, programming, and design. I am also interested in learning new technologies and staying up to date with the latest trends in web development.
-          
+          Passionate about web development, programming, and design. Constantly exploring new technologies and staying updated with the latest trends in software development and digital innovation.
         </p>
       </div>
       <div class="work">
-        <i class="fas fa-ethernet"></i>
-        <p class="work-heading">My Address </p>
-        <p class="work-text">I was born in Jimma
-          Now I Live in Adama
+        <i class="fas fa-map-marker-alt"></i>
+        <h3 class="work-heading">My Journey</h3>
+        <p class="work-text">
+          Born in the beautiful city of Jimma, I now live and study in Adama. My journey has taken me through different experiences that have shaped who I am today.
         </p>
       </div>
     </div>
-    <div class="about-me">
+  </section>
+
+  <!-- About Me Section -->
+  <section class="about-me" id="about">
+    <div class="section-title">
+      <h2>My Education</h2>
+      <p>My academic background and learning journey</p>
+    </div>
+    <div class="about-container">
+      <div class="about-image">
+        <img src="red1.png" alt="Redwan">
+      </div>
       <div class="about-me-text">
-        <h2>Eduction</h2>
-        <p>I am Studying Software Engineering In Adama Science And Technology University.
-          And I am Studing Accounting in Harambe University
-        </p>
-       
+        <h2>Dual Degree Pursuit</h2>
+        <p>I am currently pursuing two degrees simultaneously, demonstrating my passion for learning and ability to manage multiple challenges.</p>
+        <p><strong>Software Engineering</strong> at Adama Science and Technology University, where I'm gaining technical skills in programming, system design, and software development.</p>
+        <p><strong>Accounting</strong> at Harambe University, developing my analytical and financial management capabilities to complement my technical skills.</p>
+        
+        <div class="skills" id="skills">
+          <h3>My Skills</h3>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Web Development</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Programming</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Accounting</span>
+              <span class="skill-percent">75%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
       </div>
-      <img src="red1.png" alt="me">
     </div>
-    <p>If you would like to contact me, please feel free to Social media</p>
-    <a href="https://t.me/redman03"> Telegram<i class="fab fa-telegram"></i></a> <br><br>
-        <a href="https://www.tiktok.com/@coding9?_t=8aPttn43h0I&_r=1"> Tiktok<i class="fab fa-tiktok"></i></a><br><br>
-        <a href="https://www.tiktok.com/@coding9?_t=8aPttn43h0I&_r=1"> Facebook<i class="fab fa-facebook"></i></a><br><br>
-        <a class="me" href="tel:+251940930471">Phone</a>
-  </main>
-  <footer class="footer">
-    
-    <div class="copy">&copy; 2023 Develope Rr</div>
-    <div class="bottom-links">
-      <div class="links">
-        <span>More Info</span>
-        <a href="index.html">Home</a>
-        <a href="home.html">About</a>
-        <a href="contact.html">Contact</a>
-      </div>
-      <div class="links">
-        <span>Social Links</span>
-        
-        <a href="https://t.me/redman03"> Telegram<i class="fab fa-telegram"></i></a>
-        <a href="https://www.tiktok.com/@coding9?_t=8aPttn43h0I&_r=1"> Tiktok<i class="fab fa-tiktok"></i></a>
-        <a href="https://www.tiktok.com/@coding9?_t=8aPttn43h0I&_r=1"> Facebook<i class="fab fa-facebook"></i></a>
-        <a class="me" href="tel:+251940930471">Phone</a>
-		
-        
+  </section>
 
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="section-title">
+      <h2>Get In Touch</h2>
+      <p>Feel free to reach out to me through any of these platforms</p>
+    </div>
+    <div class="social-links">
+      <a href="https://t.me/redman03" class="social-link" target="_blank">
+        <i class="fab fa-telegram"></i>
+      </a>
+      <a href="https://www.tiktok.com/@coding9?_t=8aPttn43h0I&_r=1" class="social-link" target="_blank">
+        <i class="fab fa-tiktok"></i>
+      </a>
+      <a href="https://www.facebook.com" class="social-link" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="tel:+251940930471" class="social-link">
+        <i class="fas fa-phone"></i>
+      </a>
+      <a href="mailto:example@email.com" class="social-link">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3>Redwan</h3>
+        <p>Software Engineering and Accounting student passionate about technology, design, and continuous learning.</p>
       </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+          <li><a href="#about"><i class="fas fa-chevron-right"></i> About</a></li>
+          <li><a href="#skills"><i class="fas fa-chevron-right"></i> Skills</a></li>
+          <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Contact Info</h3>
+        <ul class="footer-links">
+          <li><a href="tel:+251940930471"><i class="fas fa-phone"></i> +251 940 930 471</a></li>
+          <li><a href="mailto:example@email.com"><i class="fas fa-envelope"></i> example@email.com</a></li>
+          <li><i class="fas fa-map-marker-alt"></i> Adama, Ethiopia</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Follow Me</h3>
+        <div class="social-links">
+          <a href="https://t.me/redman03" class="social-link" target="_blank">
+            <i class="fab fa-telegram"></i>
+          </a>
+          <a href="https://www.tiktok.com/@coding9?_t=8aPttn43h0I&_r=1" class="social-link" target="_blank">
+            <i class="fab fa-tiktok"></i>
+          </a>
+          <a href="https://www.facebook.com" class="social-link" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="copy">&copy; 2023 Redwan. All Rights Reserved.</p>
     </div>
   </footer>
+
+  <script>
+    // Sticky Header
+    window.addEventListener('scroll', function() {
+      const header = document.querySelector('.header');
+      header.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Mobile Menu Toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navItems = document.querySelector('.nav-items');
+
+    hamburger.addEventListener('click', function() {
+      navItems.classList.toggle('active');
+      hamburger.innerHTML = navItems.classList.contains('active') ? 
+        '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
+    });
+
+    // Close mobile menu when clicking a link
+    document.querySelectorAll('.nav-items a').forEach(link => {
+      link.addEventListener('click', () => {
+        navItems.classList.remove('active');
+        hamburger.innerHTML = '<i class="fas fa-bars"></i>';
+      });
+    });
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+        
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop - 80,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+
+    // Animate skill bars on scroll
+    function animateSkills() {
+      const skillBars = document.querySelectorAll('.skill-progress');
+      skillBars.forEach(bar => {
+        const width = bar.style.width;
+        bar.style.width = '0';
+        setTimeout(() => {
+          bar.style.width = width;
+        }, 100);
+      });
+    }
+
+    // Intersection Observer for animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          if (entry.target.classList.contains('skill-item')) {
+            animateSkills();
+          }
+          entry.target.classList.add('animated');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.work, .skill-item').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
 </body>
 
 </html>
